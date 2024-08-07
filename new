@@ -1,43 +1,52 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>HELLO WORLD</title></head>
+    
+    <title>
+        Form basics
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-<body style="background-color:orange;">
-<style>
-h1 {background-color:yellow}
-h2 {background-color:cyan}
-</style>
-<h1><p align="center">WIKIPEDIA</p></h1>
-<h2><p align="left">HTML</p></h2>
-<p align="left">HTML stands for HyperText Markup Language.It is very useful in creating webpages efficiently.There are many useful features in using many feaures efficiently like-></p>
-<ol>
-<li>Easy creation of websites</li>
-<li>No need of external hosting for practice purposes</li>
-<li>Easy to use and learn and many more......</li>
-</ol>
-<p align="left">To create a webpage simple type the code in the notepad and simply save the file extension as <b>.html</b> and see the miracle work.Below image shows the idea of how the code is written and the best preferable.</p>
-<h3><p align= "center"><i>This is a fake website..........</i></p></h3> 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">
-<img align="center" src="maxresdefault.jpg">
-</a>
-<p>     </p>
-<p>     </p>
-<style>
-table, th, td {
-border: solid black;
-}
-</style>
-<table>
-<tr>
-<th>Name</th>
-<th>Age</th>
-<th>Sex</th>
-</tr>
-<tr>
-<th>kartik</th>
-<th>20</th>
-<th>M</th>
-</tr>
-</table>
+    <form class="abc">
+        <h1 class="heading">REGISTRATION FORM</h1>
+        <div class="hello">
+            NAME : <input type="text" placeholder="FIRST NAME" class="size">   <input type="text" placeholder="LAST NAME" class="size">
+        </div>
+        <p class="align">
+        </p>
+        <div class="hello">
+            ENROLLMENT NUMBER : <input type="text" placeholder="Enter 10 digit number" class="size">
+        </div>
+        <p class="align">
+        </p>
+        <div class="hello">
+            SELECT GENDER : <input type="radio" id="MALE" name="gender" value="MALE"> <label for ="MALE">MALE</label> <input type="radio" id="FEMALE" name="gender" value="FEMALE"> <label for ="FEMALE">FEMALE</label>
+        </div>
+        <p class="align">
+        </p>
+        <div class ="hello">
+            SELECT COURSES :
+            <p></p>
+            <div>
+            <input type="checkbox" ><label>MATHS</label>
+            </div>
+            <div>
+            <input type="checkbox"><label>CSE</label>
+            </div>
+            <div>
+            <input type="checkbox" ><label>ENGLISH</label>
+            </div>
+        </div>
+        <p></p>
+        <p></p>
+        <div>
+            <button class="button"><a href="https://www.youtube.com/watch?v=WX7DBPcsiEs">SUBMIT</a></button>
+            </a>
+        </div>
+        
+
+    </form>
+
 </body>
+</head>
 </html>
