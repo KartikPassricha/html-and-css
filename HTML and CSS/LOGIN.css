@@ -1,1 +1,341 @@
+/* Desktop - 1 */
 
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+isolation: isolate;
+
+position: relative;
+width: 1440px;
+height: 900px;
+
+background: linear-gradient(90deg, #186E6C 11.27%, #D2F3F4 51.27%, #2A625A 88.77%);
+
+
+/* Forget Password? */
+
+position: absolute;
+width: 231px;
+height: 13px;
+left: 1033px;
+top: 647px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+
+color: #8C0909;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1032px;
+height: 671px;
+left: calc(50% - 1032px/2);
+top: calc(50% - 671px/2 + 0.5px);
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(96, 155, 186, 0.128) 0%, rgba(35, 109, 137, 0.128) 100%);
+box-shadow: inset 11.3533px -11.3533px 11.3533px rgba(182, 182, 182, 0.456), inset -11.3533px 11.3533px 11.3533px rgba(255, 255, 255, 0.456);
+backdrop-filter: blur(70.9583px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 55px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+position: absolute;
+width: 493px;
+height: 508px;
+left: 711px;
+top: 196px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 493px;
+height: 508px;
+left: 711px;
+top: 196px;
+
+background: #CCCCCC;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 493px;
+height: 508px;
+left: 711px;
+top: 196px;
+
+background: rgba(217, 217, 217, 0.01);
+backdrop-filter: blur(115px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Login */
+
+position: absolute;
+width: 149.7px;
+height: 72px;
+left: 883px;
+top: 220px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 54px;
+
+background: linear-gradient(180deg, #062D2A 34.77%, #227783 67.27%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 410px;
+height: 0px;
+left: 750px;
+top: 284px;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 270px;
+height: 43.06px;
+left: 750px;
+top: 450px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.15%;
+
+
+
+/* Enter your email */
+
+position: absolute;
+left: 0%;
+right: 34.07%;
+top: 16.25%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+
+
+
+/* button */
+
+position: absolute;
+width: 416px;
+height: 88px;
+left: 744px;
+top: 542px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 416px;
+height: 60px;
+left: 744px;
+top: 542px;
+
+background: #062D2A;
+border-radius: 45px;
+
+
+/* Login */
+
+position: absolute;
+width: 149.7px;
+height: 72px;
+left: 917px;
+top: 558px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 36px;
+
+background: linear-gradient(180deg, #EDFCFB 34.77%, #5BCADA 67.27%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+/* Create an Account */
+
+position: absolute;
+width: 210px;
+height: 33px;
+left: 742px;
+top: 648px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+
+color: #8C0909;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Group 1 */
+
+position: absolute;
+width: 270px;
+height: 43.06px;
+left: 750px;
+top: 359px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.15%;
+
+
+
+/* Enter your email */
+
+position: absolute;
+left: 0%;
+right: 34.07%;
+top: 16.25%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+
+
+
+/* Forget Password? */
+
+position: absolute;
+width: 231px;
+height: 13px;
+left: 1033px;
+top: 647px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Forget Password? */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+
+color: #8C0909;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 443px;
+height: 557px;
+left: 255px;
+top: 172px;
+
+background: url(image.png);
+mix-blend-mode: normal;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
