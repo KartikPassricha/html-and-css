@@ -1,13 +1,5 @@
 /* Desktop - 1 */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 10px;
-gap: 10px;
-isolation: isolate;
-
 position: relative;
 width: 1440px;
 height: 900px;
@@ -32,12 +24,6 @@ line-height: 24px;
 color: #8C0909;
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-z-index: 0;
-
 
 /* Rectangle 1 */
 
@@ -53,11 +39,15 @@ backdrop-filter: blur(70.9583px);
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 55px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-z-index: 1;
+
+/* Group 3 */
+
+position: absolute;
+width: 553px;
+height: 508px;
+left: 711px;
+top: 196px;
+
 
 
 /* Group */
@@ -68,12 +58,6 @@ height: 508px;
 left: 711px;
 top: 196px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-z-index: 2;
 
 
 /* Rectangle 2 */
@@ -98,6 +82,7 @@ top: 196px;
 background: rgba(217, 217, 217, 0.01);
 backdrop-filter: blur(115px);
 /* Note: backdrop-filter has minimal browser support */
+border-radius: 40px;
 
 
 /* Login */
@@ -179,12 +164,6 @@ left: 744px;
 top: 542px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 3;
-flex-grow: 0;
-z-index: 3;
-
 
 /* Rectangle 3 */
 
@@ -237,12 +216,6 @@ line-height: 24px;
 color: #8C0909;
 
 
-/* Inside auto layout */
-flex: none;
-order: 4;
-flex-grow: 0;
-z-index: 4;
-
 
 /* Group 1 */
 
@@ -252,12 +225,6 @@ height: 43.06px;
 left: 750px;
 top: 359px;
 
-
-/* Inside auto layout */
-flex: none;
-order: 5;
-flex-grow: 0;
-z-index: 5;
 
 
 /* Rectangle 4 */
@@ -297,12 +264,6 @@ left: 1033px;
 top: 647px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 6;
-flex-grow: 0;
-z-index: 6;
-
 
 /* Forget Password? */
 
@@ -333,9 +294,3 @@ top: 172px;
 background: url(image.png);
 mix-blend-mode: normal;
 border-radius: 30px;
-
-/* Inside auto layout */
-flex: none;
-order: 7;
-flex-grow: 0;
-z-index: 7;
